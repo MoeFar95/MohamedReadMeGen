@@ -12,7 +12,7 @@ describe('Intern test', () => {
     
    describe('getRole', () => {
        it('should use getRole() and return it as Intern', () => {
-           const testRole = 'kara';
+           const testRole = 'Intern';
            const employee = new Intern('kara', 101, 'kara@mail.com', 'UTSA');
            expect(employee.getRole()).toBe(testRole);
        });
